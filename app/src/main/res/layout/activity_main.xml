@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backround_list"
+    android:id="@+id/mainLayout">
+
+    <EditText
+        android:id="@+id/editMainText"
+        android:layout_width="229dp"
+        android:layout_height="97dp"
+        android:ems="10"
+        android:hint="@string/enter_text"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="33dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editReturnText"
+        android:layout_width="232dp"
+        android:layout_height="94dp"
+        android:ems="10"
+        android:hint="@string/dechypText"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="159dp"
+        android:layout_height="38dp"
+        android:background="@drawable/gradient"
+        android:onClick="btnclickchypher"
+        android:text="@string/textchypher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editKlitch" />
+
+    <EditText
+        android:id="@+id/editKlitch"
+        android:layout_width="233dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="@string/enter_Klitch"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editMainText" />
+
+    <EditText
+        android:id="@+id/editReturnText2"
+        android:layout_width="231dp"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:hint="@string/dechypreturntext"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editReturnText" />
+
+    <EditText
+        android:id="@+id/editKlitsh2"
+        android:layout_width="231dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/enter_Klitch2"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editReturnText2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="156dp"
+        android:layout_height="43dp"
+        android:background="@drawable/gradient"
+        android:onClick="btn2clikDechypher"
+        android:text="@string/textDEchypher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editKlitsh2" />
+
+    <EditText
+        android:id="@+id/editDechifrReturnText"
+        android:layout_width="230dp"
+        android:layout_height="94dp"
+        android:ems="10"
+        android:hint="@string/DeChypherReturnKlitch"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Сypher_01</string>
+    <string name="textchypher">зашифровать</string>
+    <string name="eror">ошибка</string>
+    <string name="enter_text">введите текст</string>
+    <string name="enter_Klitch">ключ зашифровки</string>
+    <string name="dechypher">расшифровать</string>
+
+    <string name="enter_Klitch2">ключ расшифровки</string>
+    <string name="dechypText">зашифровваный текст</string>
+    <string name="dechypreturntext">нужно росшифровать </string>
+    <string name="DeChypherReturnKlitch">расшифрованный текст</string>
+    <string name="textDEchypher">расшифровать</string>
+</resources>
